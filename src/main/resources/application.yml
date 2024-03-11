@@ -1,0 +1,8 @@
+
+server:
+  port: 8761 # Le port sur lequel le serveur Eureka sera accessible.
+
+eureka:
+  client:
+    fetch-registry: false # Indique que ce serveur n'ira pas chercher les informations d'un autre registre Eureka.
+    register-with-eureka: false # Indique que ce serveur ne s'enregistrera pas en tant que client dans un registre Eureka.
